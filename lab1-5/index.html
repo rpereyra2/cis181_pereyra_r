@@ -1,14 +1,72 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.4">
-  <style type="text/css">
-  </style>
+  <meta charset="UTF-8">
+  <title>A Mad Tea‑Party Order Form</title>
 </head>
 <body>
+  <h1>A Mad Tea‑Party</h1>
+  <h2>Tea Party Supplies</h2>
+
+  <table border="1">
+    <tr><td>Tea Cups with Saucers</td><td>$35.99</td></tr>
+    <tr><td>Teapot</td><td>$42.50</td></tr>
+    <tr><td>Sugar Bowl</td><td>$18.75</td></tr>
+    <tr><td>Cream Pitcher</td><td>$15.25</td></tr>
+    <tr><td>Serving Tray</td><td>$27.00</td></tr>
+    <tr><td>Napkin Set</td><td>$12.99</td></tr>
+  </table>
+
+  <h3>Order Form</h3>
+   <form method="post" action="http://www.rebol.com/cgi-bin/test-cgi.cgi">
+
+  <!-- Text Input Fields -->
+  <label for="name">Customer Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="address">Mailing Address:</label>
+  <input type="text" id="address" name="address"><br><br>
+
+  <label for="city">City:</label>
+  <input type="text" id="city" name="city"><br><br>
+
+  <!-- State Dropdown Menu -->
+  <label for="state">State:</label>
+  <select id="state" name="state">
+    <option value="IL">IL</option>
+    <option value="IN">IN</option>
+    <option value="MI">MI</option>
+    <option value="WI">WI</option>
+  </select><br><br>
+
+  <!-- Shipping Options -->
+  <p>Choose a shipping option:</p>
+  <input type="radio" id="standard" name="shipping" value="standard">
+  <label for="standard">Standard shipping (3–4 days)</label><br>
+
+  <input type="radio" id="rush" name="shipping" value="rush">
+  <label for="rush">Rush shipping (2 days)</label><br>
+
+  <input type="radio" id="overnight" name="shipping" value="overnight">
+  <label for="overnight">Overnight shipping (1 day)</label><br><br>
+
+  <!-- Special Instructions -->
+  <label for="instructions">Special delivery instructions?</label><br>
+  <textarea id="instructions" name="instructions" cols="30" rows="4"></textarea><br><br>
+
+  <!-- Submit Button -->
+  <input type="submit" value="Submit Order">
+
+  <!-- Mailing List Checkbox -->
+<input type="checkbox" id="mailinglist" name="mailinglist" checked>
+<label for="mailinglist">E-mail me about future promotions and sales.</label>
+<br><br>
+
+<!-- Submit Button -->
+<input type="submit" value="Place Order">
+
+</form>
+
 </body>
 </html>
+
