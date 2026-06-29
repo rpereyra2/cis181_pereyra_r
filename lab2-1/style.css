@@ -1,27 +1,65 @@
-@charset "UTF-8";
-
-body {
-  background-color: #e0c791;
-  font-family: Georgia, "Times New Roman", serif;
+/* Class and ID Selectors */
+.summary {
+  font-size: 11px;
 }
 
-header {
-  height: 120px;
+/* Hide headings */
+h1, h2 {
+  text-indent: -9999px;
+  overflow: hidden;
+  display: block;
 }
 
+/* Pseudo-classes */
+a:link {
+  color: #e30b5d;
+  text-decoration: none;
+}
+a:visited {
+  color: #e30b5d;
+}
+a:hover, a:active {
+  color: #b4aa99;
+}
+a:focus {
+  text-decoration: underline;
+}
+
+/* Shorthand Properties */
 .page-wrapper {
-  width: 1105px;
-  margin: auto;
-  background-color: #232428;
-  color: #eacb89;
+  padding: 1em 2em;
 }
-
 .preamble {
-  width: 330px;
+  padding: 35px 10px;
+  margin: 100px 0 0 0;
+}
+.main {
+  padding: 65px 10px;
 }
 
+/* Background Images */
+body {
+  background: url('lab2-1/images/art-deco-texture.jpg') repeat;
+}
+header {
+  background: url('images/css-zen-garden.png') no-repeat center;
+}
+.preamble {
+  background: url('lab2-1/images/column-header-1.png') no-repeat top;
+}
 .main {
-  width: 730px;
+  background: url('lab2-1/images/column-header-2.png') no-repeat center top;
+}
+
+/* Display and Page Layout */
+.preamble {
+  float: left;
+}
+.main {
+  float: right;
+}
+footer {
+  clear: both;
 }
 
 
