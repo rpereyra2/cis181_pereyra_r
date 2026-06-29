@@ -39,16 +39,16 @@ a:focus {
 
 /* Background Images */
 body {
-  background: url('lab2-1/images/art-deco-texture.jpg') repeat;
+  background: url('images/art-deco-texture.jpg') repeat;
 }
 header {
   background: url('images/css-zen-garden.png') no-repeat center;
 }
 .preamble {
-  background: url('lab2-1/images/column-header-1.png') no-repeat top;
+  background: url('images/column-header-1.png') no-repeat top;
 }
 .main {
-  background: url('lab2-1/images/column-header-2.png') no-repeat center top;
+  background: url('images/column-header-2.png') no-repeat center top;
 }
 
 /* Display and Page Layout */
