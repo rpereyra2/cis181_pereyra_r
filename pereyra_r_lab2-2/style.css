@@ -104,38 +104,3 @@ a:focus {
   margin: 0;
 }
 
-/* List Items */
-.sidebar li {
-  padding: 8px 0;
-  border-bottom: 1px solid;
-}
-
-/* Navigation Links */
-.sidebar a {
-  display: block;
-  text-decoration: none;
-  color: #eacb89;
-}
-
-/* Link Hover Effect */
-.sidebar a:hover {
-  color: #b4aa99;
-}
-
-/* Special Link Styling */
-.sidebar a.design-name {
-  font-weight: bold;
-  display: block;
-}
-
-.sidebar a.designer-name {
-  font-size: 14px;
-  padding-left: 10px;
-}
-
-/* Resources Section Styling */
-#zen-resources {
-  border-top: 1px ridge;
-  margin-top: 20px;
-  padding-top: 20px;
-}
