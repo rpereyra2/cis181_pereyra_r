@@ -38,13 +38,7 @@ header {
 .main.supporting {
   background-color: #000; /* or your sidebar color */
 }
-  width: 730px;
-  padding: 65px 10px;
-  background-image: url("images/column-header-2.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  float: right;
-}
+ 
 
 footer {
   clear: both;
