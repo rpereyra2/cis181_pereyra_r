@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* Dr. Laurie's note: I have designed this page to be viewed at Screen Resolution 1280 x 960 */
+
+
+body {
+	background-color: RGB(108,77,48);
+	background-image: URL("images/leather.jpg");
+	font-family: Garamond, Palatino, Georgia, serif;
+	font-size: 14px; 
+}
+
+
+#container {
+	background-color: RGB(238,228,201);
+	background-image: URL("images/paper-texture.jpg");
+	width: 1105px;
+	margin: 0 auto; /* centers the div */
+	padding: 20px;
+	overflow: auto;
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+	border-bottom: 2px RGB(238,228,201) double;
+	margin-bottom: 0.5em;
+}
+
+article {
+	margin: 1em 1em 1em 0;
+	float: right;
+	width: 755px;
+}
+
+nav {
+	border: 2px RGB(238,228,201) double;
+	padding: 20px;
+	background-color: maroon;
+	color: RGB(238,228,201);
+	margin: 1em 1em 1em 0;
+	width: 255px;
+}
+
+
+
+p {
+	margin-top: 1em;
+}
+
+p.start:first-letter {
+	/* This creates a "drop cap" for the first letter of the paragraph if it has a class of "start" */
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+
+#silhouette {
+	float: right;
+	margin-left: 2em;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	border-top: 2px ridge;
+}
+
+a:link, a:visited {
+	color: maroon;
+}
+
+a:hover, a:active {
+	color: navy;
+}
+
+nav a:link, nav a:visited {
+	/* Because maroon links aren't visible on a maroon background!
+	   This overrides the a:link and a:visited styles for the nav only. */
+	color: RGB(238,228,201);
+	text-decoration: none;
+	font-size: 125%;
+}
+
+nav a:hover, nav a:active {
+	/* This overrides the a:hover and a:active styles for the nav only. */
+	text-decoration: underline;
+}
+
+
+/* This section puts the quotation marks back in for instances of the <q> tag
+   The reset style sheet strips them out. */
+q::before{
+  content: "“";
+}
+q::after {
+  content: "”";
+}
+q.noclosing::after {
+	/* This part was challenging! In Sir Arthur's original source material, there were many
+	opening quotation without corresponding closing quotation marks. Ultimately I decided to
+	assign a reusable class to instances of the <q> tag where there was no closing quotation
+	mark in the original story. */
+	content: " ";
+}
