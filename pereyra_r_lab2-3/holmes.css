@@ -237,3 +237,93 @@ q.noclosing::after {
 	content: " ";
 }
 >>>>>>> b8ec46f8d294c6dff809fc47da1f958bb9797805
+/* =========================
+   Base Font Size
+   ========================= */
+/* 14 ÷ 16 = 0.875 → 87.5% */
+body {
+  font-size: 87.5%;
+}
+
+/* =========================
+   Container Width and Padding
+   ========================= */
+/* 1105 ÷ 1280 = 0.863 → 86.3% */
+/* 20 ÷ 14 = 1.43em */
+#container {
+  width: 86.3%;
+  padding: 1.43em;
+  margin: 0 auto;
+}
+
+/* =========================
+   Heading Font Sizes
+   ========================= */
+/* h1: 32 ÷ 14 = 2.29em */
+/* h2: 24 ÷ 14 = 1.71em */
+/* h3: 20 ÷ 14 = 1.43em */
+h1 {
+  font-size: 2.29em;
+}
+h2 {
+  font-size: 1.71em;
+}
+h3 {
+  font-size: 1.43em;
+}
+
+/* =========================
+   Article Width
+   ========================= */
+/* 755 ÷ 1105 = 0.683 → 68.3% */
+article {
+  width: 68.3%;
+  float: left;
+}
+
+/* =========================
+   Navigation Width and Padding
+   ========================= */
+/* 255 ÷ 1105 = 0.231 → 23.1% */
+/* 20 ÷ 14 = 1.43em */
+nav {
+  width: 23.1%;
+  float: right;
+  padding: 1.43em;
+}
+
+/* =========================
+   Drop Cap Styling
+   ========================= */
+/* font-size: 45 ÷ 14 = 3.21em */
+/* margin-right: 9 ÷ 14 = 0.64em */
+p.start::first-letter {
+  font-size: 3.21em;
+  margin-right: 0.64em;
+  float: left;
+  line-height: 1;
+}
+
+/* =========================
+   Image Responsiveness
+   ========================= */
+#silhouette {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =========================
+   Media Query for Small Screens
+   ========================= */
+@media screen and (max-width: 768px) {
+  article {
+    width: 100%;
+    float: none;
+  }
+
+  nav {
+    width: 100%;
+    float: none;
+    padding: 1em;
+  }
+}
