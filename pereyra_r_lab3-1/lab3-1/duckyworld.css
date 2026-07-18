@@ -58,3 +58,20 @@ footer {
   padding: 0.5em;
   text-align: center;
 }
+/* Table Header Styling */
+thead {
+    font-weight: bold;
+    color: #A3648D;
+}
+
+/* Optional CSS for fieldset and legend */
+fieldset {
+    border: 2px solid #A3648D;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #A3648D;
+}
