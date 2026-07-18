@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DuckyWorld Order Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="duckyworld.css">
+</head>
+<body>
+
+    <h1>DuckyWorld Order Form</h1>
+
+    <!-- 🦆 Product Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Color</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Standard Yellow Duck</td>
+                <td>Yellow</td>
+                <td>$5.00</td>
+                <td><input type="number" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td>Powder Pink Duck</td>
+                <td>Pink</td>
+                <td>$6.00</td>
+                <td><input type="number" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td>Baby Blue Duck</td>
+                <td>Blue</td>
+                <td>$6.00</td>
+                <td><input type="number" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td>Limited Edition Astro Duck</td>
+                <td>Silver</td>
+                <td>$10.00</td>
+                <td><input type="number" min="0" max="10"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 🧾 Order Form -->
+    <form>
+        <fieldset>
+            <legend>Shipping Info</legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" autofocus><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="address1">Address Line 1:</label>
+            <input type="text" id="address1" name="address1"><br>
+
+            <label for="address2">Address Line 2:</label>
+            <input type="text" id="address2" name="address2" placeholder="optional"><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Quantities</legend>
+            <label for="yellow">Standard Yellow Ducks:</label>
+            <input type="number" id="yellow" name="yellow" min="0" max="10"><br>
+
+            <label for="pink">Powder Pink Ducks:</label>
+            <input type="number" id="pink" name="pink" min="0" max="10"><br>
+
+            <label for="blue">Baby Blue Ducks:</label>
+            <input type="number" id="blue" name="blue" min="0" max="10"><br>
+
+            <label for="astro">Limited Edition Astro Ducks:</label>
+            <input type="number" id="astro" name="astro" min="0" max="10"><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Order">
+    </form>
+
+</body>
+</html>
