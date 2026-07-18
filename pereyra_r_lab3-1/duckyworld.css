@@ -75,3 +75,7 @@ legend {
     font-weight: bold;
     color: #A3648D;
 }
+p, label, td, th, legend {
+    font-size: 18px;
+    font-weight: bold;
+}
