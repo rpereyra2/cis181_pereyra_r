@@ -42,6 +42,10 @@ function greetCustomer() {
     } else {
         alert("Hello, customer!");
     }
+    <button onclick="welcomeMessage()">Welcome Message</button>
+<button onclick="customerGreeting()">Customer Greeting</button>
+<button onclick="totalDuckCount()">Total Duck Count</button>
+
 }
 
 /*

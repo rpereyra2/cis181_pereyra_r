@@ -121,6 +121,27 @@
       This page and its contents copyright &copy; 2020 Alfaro&rsquo;s Ducky World. All rights reserved.
     </small>
   </footer>
+  <script>
+function welcomeMessage() {
+    alert("Welcome to Alfaro’s Ducky World!");
+}
+
+function customerGreeting() {
+    let first = document.getElementById("firstName").value;
+    alert("Hello " + first + ", thanks for visiting!");
+}
+
+function totalDuckCount() {
+    let yellow = Number(document.getElementById("qtyYellow").value);
+    let pink = Number(document.getElementById("qtyPink").value);
+    let blue = Number(document.getElementById("qtyBlue").value);
+    let astro = Number(document.getElementById("qtyAstro").value);
+
+    let total = yellow + pink + blue + astro;
+    alert("Total ducks ordered: " + total);
+}
+</script>
+
 
 </body>
 
