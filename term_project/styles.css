@@ -50,11 +50,12 @@
     gap: 15px;
   }
 }
+
 .hi {
   font-size: 48px;
   font-weight: bold;
   color: #d14b4b;
-  margin: 20px 0 0;
+  margin: 0 0 10px;
   font-family: "Georgia", serif;
 }
 
@@ -62,5 +63,5 @@
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 2px;
-  margin-top: -10px;
+  margin-bottom: 20px;
 }
