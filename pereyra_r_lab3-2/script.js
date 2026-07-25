@@ -6,7 +6,8 @@
 /*
     Displays a welcome message.
 */
-function welcomeCustomer() {
+function welcomeCustomer() 
+{
 
 }
 
