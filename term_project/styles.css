@@ -1,11 +1,11 @@
 /* Navigation Bar */
 .navbar {
-  background-color: #ffffff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background: linear-gradient(90deg, #d14b4b, #b63f3f);
   padding: 15px 0;
   position: sticky;
   top: 0;
   z-index: 1000;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
 }
 
 .nav-container {
@@ -18,27 +18,30 @@
 }
 
 .nav-logo {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
-  color: #d14b4b;
+  color: #fff;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 30px;
 }
 
 .nav-links a {
   text-decoration: none;
   font-size: 18px;
-  color: #333;
-  transition: 0.2s;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.2s ease;
 }
 
 .nav-links a:hover {
-  color: #d14b4b;
+  color: #ffe3e3;
+  transform: translateY(-2px);
 }
 
 /* Mobile */
