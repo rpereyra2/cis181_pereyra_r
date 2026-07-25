@@ -26,9 +26,7 @@ function calculateTotalDucks() {/*
     Ducky World JavaScript
 */
 
-/*
-    Displays a welcome message.
-*/
+
 function welcomeCustomer() {
     alert("Welcome to Ducky World!");
 }
