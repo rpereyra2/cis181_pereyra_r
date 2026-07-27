@@ -273,11 +273,22 @@ footer {
     padding: 60px 40px;
 }
 
-.hero-photo img {
+.about-hero-photo img {
     width: 260px;
     height: 260px;
     object-fit: cover;
+    object-position: top; 
     border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.cursive-name {
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-size: 48px;
+    color: #8e2d2d;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
 }
 
 .about-text h1 {
