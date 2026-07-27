@@ -107,6 +107,54 @@
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+/* Homepage Hero Section */
+.hero-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 40px;
+}
+
+/* Left Text */
+.hero-text {
+    max-width: 50%;
+}
+
+/* Fancy Title */
+.future-title {
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #d14b4b, #8e2d2d);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/* Fancy Name */
+.fancy-name {
+    font-size: 42px;
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    color: #8e2d2d;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+
+/* Description */
+.hero-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Right Photo */
+.hero-photo img {
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
 
 
 /* Page Layout */
